@@ -6,5 +6,5 @@ nome varchar(50),
 sobrenome varchar(100),
 email varchar(100),
 nacionalidade varchar(30),
-descricao text
+descricao varchar(8000)
 );

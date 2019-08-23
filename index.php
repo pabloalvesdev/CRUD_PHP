@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="components/css/main.css">
+    <link rel="stylesheet" type="text/css" href="components/css/main2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>CRUD | Start</title>
 </head>
@@ -12,8 +12,8 @@
         <?php include_once 'components/includes/exibir.php'?>   
         <?php include_once 'components/includes/alterar.php'?>
         <?php include_once 'components/includes/excluir.php'?>        
-    
     </div>
+    
     <footer>
         <p>Saltzman&reg</p>
     </footer>

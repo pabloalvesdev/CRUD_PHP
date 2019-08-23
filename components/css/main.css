@@ -1,12 +1,18 @@
-/*body{
+body{
     background: black !important;
-}*/
+    margin-top: 40px !important;
+}
 h1{
     font-family: sans-serif;
     color: #007bff;
     border-bottom: 3px solid #007bff;
 }
-.box{
+.acesso{
+    border: 3px solid #007bff;
+    height: 45px;
+    border-radius: 10px;
+}
+#box-adicionar{
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -65,8 +71,21 @@ footer{
     width: 100%;
     min-height: 50px;
     text-align: center;
-    color: grey;
+    color: black;
     position: absolute;
     bottom: 0px;
     font-size: 14px;
+}
+#botao{
+    background: none;
+    color: #007bff;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 24px;
+    border: 3px solid #007bff;  
+}
+#botao:hover{
+    background: #007bff;
+    color: white;
 }

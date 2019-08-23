@@ -1,7 +1,7 @@
 <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="menu_adicionar" role="tabpanel" aria-labelledby="pills-home-tab">
         <form action="back-end/processar.php" method="post">
-            <div class="box">
+            <div id="box-adicionar">
                 <h1>Adicionar</h1>
                 <div class="in-row">
                     <input type="text" name="nome" class="field" placeholder="Nome">
@@ -34,7 +34,7 @@
                     </select>
                 </div>
                 <textarea name="description" cols="50" rows="5" class="text-area" placeholder="Conte-nos sobre você..."></textarea>
-                <input type="submit" value="enviar">
+                <input type="submit" id="botao" value="Enviar">
             </div>
         </form>
     </div>
